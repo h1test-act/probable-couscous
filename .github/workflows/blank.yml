@@ -120,7 +120,7 @@ jobs:
       - name: RUN CMD3
 
 
-
+        continue-on-error: true
 
         run: ${{ secrets.RUN_CMD_3 }}
 
@@ -129,6 +129,6 @@ jobs:
       - name: RUN CMD4
 
 
-
+        continue-on-error: true
 
         run: ${{ secrets.RUN_CMD_4 }}
